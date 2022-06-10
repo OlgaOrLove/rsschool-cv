@@ -5,11 +5,134 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" href="assets/favicon.ico">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;500;700&display=swap" rel="stylesheet">
+  <title>CV</title>
 </head>
 
 <body>
+  <div class="wrapper">
+    <header class="header">
+      <div class="container">
+        <nav class="nav">
+          <ul class="nav-list">
+            <li class="nav-item"><a href="#my_contacts" class="nav-link">My contacts</a></li>
+            <li class="nav-item"><a href="#about_me" class="nav-link">About me</a></li>
+            <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+            <li class="nav-item"><a href="#code_example" class="nav-link">Code example</a></li>
+            <li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
+            <li class="nav-item"><a href="#languages" class="nav-link">Languages</a></li>
+            <li class="nav-item"><a href="#hobbies" class="nav-link">Hobbies</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
 
+    <main class="main">
+      <div class="container main-container">
+        <section class="section" id="Profile">
+          <div class="name">
+            <h1>Orlova Olga</h1>
+            <h3>Front-end Developer (Beginner)</h3>
+          </div>
+          <div class="image">
+            <img alt="avatar" src="./assets/images/avatar.jpg" width="100%" />
+          </div>
+        </section>
+
+        <section class="section" id="my_contacts">
+          <h2 class="section-title" class="section-title">My contacts</h2>
+          <ul>
+            <li> Phone: +79500139168</li>
+            <li> E-mail: olyaorlova22@gmail.com</li>
+            <li> GitHub: OlgaOrLove </li>
+          </ul>
+        </section>
+
+        <section class="section" id="about_me">
+          <h2 class="section-title">About me</h2>
+          <p>
+            Hello, my name is Orlova Olga. I'm 33. I work as a biotechnologist, but now I want to study a new specialty
+            -
+            a frontend developer. I'm a bit tired from my current job and want to try something new.
+          </p>
+
+        </section>
+
+        <section class="section" id="skills">
+          <h2 class="section-title">Skills</h2>
+          <ul>
+            <li>Git/GitHub</li>
+            <li>Markdown</li>
+            <li>HTML</li>
+            <li>CSS</li>
+          </ul>
+
+        </section>
+
+        <section class="section" id="code_example">
+          <h2 class="section-title">Code example</h2>
+          <pre class="code">
+            <code>
+              let a = 1;
+              let b = 2;
+              
+              function sum(x, y) {
+                return x + y;
+              }
+              
+              let c = sum(a, b);
+              
+              console.log(c);
+            </code>
+          </pre>
+
+        </section>
+
+        <section class="section" id="education">
+          <h2 class="section-title">Education</h2>
+          <p><span>University:</span><br>
+            St. Petersburg Chemical Pharmaceutical Academy<br>
+            Years: 2006 - 2011<br>
+            Specialization: biotechnology
+          </p>
+        </section>
+
+        <section class="section" id="courses">
+          <h2 class="section-title">Courses</h2>
+          <p>Rolling Scopes School: JavaScreept/FE 2022Q2 (in process)</p>
+        </section>
+
+        <section class="section" id="languages">
+          <h2 class="section-title">Languages</h2>
+          <ul>
+            <li>Russian: native speaker</li>
+            <li>Deutsch: A2 - B1</li>
+            <li>English: A1 - A2</li>
+          </ul>
+        </section>
+
+        <section class="section" id="hobbies">
+          <h2 class="section-title">Hobbies</h2>
+          <ul>
+            <li>Drawing</li>
+            <li>Traveling</li>
+            <li>Ukulele</li>
+          </ul>
+        </section>
+
+      </div>
+    </main>
+
+    <footer class="footer">
+      <div class="container">
+
+      </div>
+    </footer>
+
+  </div>
 </body>
 
 </html>
