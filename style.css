@@ -75,6 +75,7 @@ span {
 }
 .image img {
   border-radius: 10px;
+  width: 100%;
 }
 #Profile {
   display: flex;
@@ -112,6 +113,14 @@ h1 {
   background: #bd7faf78;
   padding: 10px;
 }
+.logo-github {
+  width: 80px;
+  height: 100%;
+}
+.logo-rss {
+  width: 150px;
+  height: 100%;
+}
 .year {
   font-size: 35px;
 }
@@ -119,10 +128,10 @@ h1 {
   background: #bd7faf78;
 }
 #my_contacts a {
-    transition: 0.3s;
+  transition: 0.3s;
   text-decoration: none;
-  color:rgb(54, 54, 54)
+  color: rgb(54, 54, 54);
 }
 #my_contacts a:hover {
-  color: cadetblue; 
+  color: cadetblue;
 }
