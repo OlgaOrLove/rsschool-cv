@@ -15,7 +15,7 @@
 <body>
   <div class="wrapper">
     <header class="header">
-      <div class="container">
+      <div class="container header-container">
         <nav class="nav">
           <ul class="nav-list">
             <li class="nav-item"><a href="#my_contacts" class="nav-link">My contacts</a></li>
@@ -31,23 +31,25 @@
     </header>
 
     <main class="main">
+      <section class="section" id="Profile">
+        <div class="name">
+          <h1>Orlova Olga</h1>
+          <h3>Front-end Developer (Beginner)</h3>
+        </div>
+        <div class="image">
+          <img alt="avatar" src="./assets/images/avatar.jpg" width="100%" />
+        </div>
+      </section>
+
       <div class="container main-container">
-        <section class="section" id="Profile">
-          <div class="name">
-            <h1>Orlova Olga</h1>
-            <h3>Front-end Developer (Beginner)</h3>
-          </div>
-          <div class="image">
-            <img alt="avatar" src="./assets/images/avatar.jpg" width="100%" />
-          </div>
-        </section>
+
 
         <section class="section" id="my_contacts">
           <h2 class="section-title" class="section-title">My contacts</h2>
           <ul>
             <li> Phone: +79500139168</li>
             <li> E-mail: olyaorlova22@gmail.com</li>
-            <li> GitHub: OlgaOrLove </li>
+            <li><a href="https://github.com/OlgaOrLove">GitHub: OlgaOrLove</a></li>
           </ul>
         </section>
 
@@ -76,19 +78,24 @@
           <h2 class="section-title">Code example</h2>
           <pre class="code">
             <code>
-              let a = 1;
-              let b = 2;
-              
-              function sum(x, y) {
-                return x + y;
-              }
-              
-              let c = sum(a, b);
-              
-              console.log(c);
+    let a = 1;
+    let b = 2;
+    
+    function sum(x, y) {
+      return x + y;
+    }
+    
+    let c = sum(a, b);
+    
+    console.log(c);
             </code>
           </pre>
 
+        </section>
+
+        <section class="section" id="projects">
+          <h2 class="section-title">Projects</h2>
+          <a href="https://OlgaOrLove.github.io/rsschool-cv/">My CV</a>
         </section>
 
         <section class="section" id="education">
@@ -127,8 +134,13 @@
     </main>
 
     <footer class="footer">
-      <div class="container">
-
+      <div class="container footer-container">
+        <a href="https://github.com/OlgaOrLove">
+          <img alt="GitHub logo" src="./assets/images/icons-mark-github.svg" width="80px" height="100%" />
+        </a>
+        <a href="https://rs.school/js/">
+          <img alt="RSS logo" src="./assets/images/rs_school_js.svg" width="150px" height="100%" /></a>
+        <span class="year">2022</span>
       </div>
     </footer>
 
